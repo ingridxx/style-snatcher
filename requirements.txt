@@ -1,5 +1,5 @@
 streamlit>=1.28
 fashion-clip
-PIL
+Pillow
 pandas
-pymysql
+PyMySQL
