@@ -33,4 +33,4 @@ A web app that lets you do image search with fashion items and receive recommend
       database = "" (your database name)
       user = "" (your workspace group user name)
       password = "" (your workspace group password)
-5. Save the project and run `streamlit run streamlit_app.py`, the app should open in a localhost:8051 browser.
+5. Save the project and run `streamlit run streamlit_app.py`, the app should open in a localhost:8501 browser.
