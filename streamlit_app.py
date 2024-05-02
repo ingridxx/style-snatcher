@@ -71,11 +71,11 @@ def find_top_matches(connection, embedding, embedding_type, max_price, keyword=N
     query_embedding_str = ','.join([str(num) for num in embedding])
 
     # Prepare the SQL command to set the vector query
-    set_vector_query = f"SET @query_vec = '[{query_embedding_str}]' :> VECTOR(512);"
+    # set_vector_query = f"SET @query_vec = '[{query_embedding_str}]' :> VECTOR(512);"
 
     cursor = connection.cursor()
 
-    cursor.execute(set_vector_query)
+    # cursor.execute(set_vector_query)
 
     if keyword:
         query = f"""
