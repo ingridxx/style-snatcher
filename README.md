@@ -26,10 +26,11 @@ A web app that lets you do image search with fashion items and receive recommend
 2. Run `pip install -r requirements.txt`
 3. Create a `secrets.toml` file in the `.streamlit` folder and enter your SingleStore connection details
    
-   ```[singlestore]
+   ```
+   [singlestore]
       host = "svc-xxx.svc.singlestore.com"
       port = 3306 (or 3333 if using shared tier)
       database = "" (your database name)
       user = "" (your workspace group user name)
       password = "" (your workspace group password)
-5. Save the project and run `streamlit run streamlit_app.py`, the app should open in a localhost browser.
+5. Save the project and run `streamlit run streamlit_app.py`, the app should open in a localhost:8051 browser.
